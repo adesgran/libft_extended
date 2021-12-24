@@ -9,12 +9,16 @@ C_FILES = ft_isalpha.c ft_isascii.c ft_isprint.c ft_strlen.c ft_memset.c ft_bzer
 		  ft_lstnew.c ft_lstadd_front.c \
 		  ft_lstsize.c ft_lstlast.c ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c\
 		  ft_lstmap.c \
-		  ft_get_next_line.c ft_get_next_line_utils.c
+		  ft_get_next_line.c ft_get_next_line_utils.c \
+		  ft_printf.c ft_printf/print_c.c ft_printf/print_d.c ft_printf/print_i.c\
+		  ft_printf/print_lowx.c ft_printf/print_p.c ft_printf/print_s.c ft_printf/print_topx.c\
+		  ft_printf/print_u.c
 
 O_FILES = ${C_FILES:.c=.o}
+H_FILES = -I .
 
 .c.o:
-	${CC} ${CFLAGS} -c $< -o ${<:.c=.o}
+	${CC} ${CFLAGS} ${H_FILES} -c $< -o ${<:.c=.o}
 
 all: ${NAME}
 
