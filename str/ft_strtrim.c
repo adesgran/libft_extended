@@ -6,11 +6,11 @@
 /*   By: adesgran <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/29 11:08:49 by adesgran          #+#    #+#             */
-/*   Updated: 2021/11/29 12:24:26 by adesgran         ###   ########.fr       */
+/*   Updated: 2021/12/24 12:29:13 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
 
 static int	ft_ison(char c, char const *s)
 {

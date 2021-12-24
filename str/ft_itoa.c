@@ -6,11 +6,11 @@
 /*   By: adesgran <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/29 11:26:58 by adesgran          #+#    #+#             */
-/*   Updated: 2021/11/29 11:27:39 by adesgran         ###   ########.fr       */
+/*   Updated: 2021/12/24 12:29:13 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
 
 static int	ft_get_size(int n)
 {

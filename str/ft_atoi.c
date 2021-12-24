@@ -6,11 +6,11 @@
 /*   By: adesgran <adesgran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/23 16:12:24 by adesgran          #+#    #+#             */
-/*   Updated: 2021/11/29 11:29:43 by adesgran         ###   ########.fr       */
+/*   Updated: 2021/12/24 12:29:13 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
 
 int	ft_atoi(const char *str)
 {

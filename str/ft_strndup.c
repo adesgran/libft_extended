@@ -1,41 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_substr.c                                        :+:      :+:    :+:   */
+/*   ft_strndup.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: adesgran <adesgran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/23 16:57:24 by adesgran          #+#    #+#             */
-/*   Updated: 2021/12/01 13:19:52 by adesgran         ###   ########.fr       */
+/*   Created: 2021/12/24 11:23:26 by adesgran          #+#    #+#             */
+/*   Updated: 2021/12/24 12:29:13 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
 
-char	*ft_substr(char const *s, unsigned int start, size_t len)
+char	*ft_strndup(const char *s1, size_t n)
 {
+	char	*res;
 	size_t	i;
-	char	*str;
 
-	if (!s)
-		return (NULL);
-	if (len > ft_strlen(s + start))
-		str = malloc(sizeof(char) * (ft_strlen(s + start) + 1));
+	if (ft_strlen(s1) < n)
+		res = malloc(sizeof(char) * (ft_strlen(s1) + 1));
 	else
-		str = malloc(sizeof(char) * (len + 1));
-	if (!str)
-		return (NULL);
-	if (start >= ft_strlen(s))
-	{
-		str[0] = '\0';
-		return (str);
-	}
+		res = malloc(sizeof(char) * (n + 1));
+	if (res == NULL)
+		return (res);
 	i = 0;
-	while (s[start + i] && i < len)
+	while (s1[i] && i < n)
 	{
-		str[i] = s[start + i];
+		res[i] = s1[i];
 		i++;
 	}
-	str[i] = '\0';
-	return (str);
+	res[i] = '\0';
+	return (res);
 }
