@@ -1,27 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_get_next_line_utils.c                           :+:      :+:    :+:   */
+/*   ft_get_next_line.h                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: adesgran <adesgran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/12/24 11:13:14 by adesgran          #+#    #+#             */
-/*   Updated: 2021/12/24 12:46:29 by adesgran         ###   ########.fr       */
+/*   Created: 2021/12/24 12:44:46 by adesgran          #+#    #+#             */
+/*   Updated: 2021/12/24 12:46:51 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_get_next_line.h" 
+#ifndef FT_GET_NEXT_LINE_H
+# define FT_GET_NEXT_LINE_H
 
-int	next_nl(char *s)
-{
-	int	i;
+#include <libft.h>
 
-	i = 0;
-	while (s[i])
-	{
-		if (s[i] == '\n')
-			return (i);
-		i++;
-	}
-	return (-1);
-}
+int	next_nl(char *s);
+
+#endif

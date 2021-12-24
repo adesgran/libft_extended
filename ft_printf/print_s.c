@@ -6,11 +6,11 @@
 /*   By: adesgran <adesgran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/06 16:13:37 by adesgran          #+#    #+#             */
-/*   Updated: 2021/12/24 11:48:27 by adesgran         ###   ########.fr       */
+/*   Updated: 2021/12/24 12:43:46 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h> 
+#include "ft_printf.h" 
 
 int	print_s(va_list args)
 {

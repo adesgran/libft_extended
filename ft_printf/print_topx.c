@@ -6,11 +6,11 @@
 /*   By: adesgran <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/08 19:06:29 by adesgran          #+#    #+#             */
-/*   Updated: 2021/12/24 11:48:53 by adesgran         ###   ########.fr       */
+/*   Updated: 2021/12/24 12:43:46 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "ft_printf.h"
 
 static int	get_length(unsigned int nb)
 {

@@ -6,11 +6,11 @@
 /*   By: adesgran <adesgran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/24 11:11:52 by adesgran          #+#    #+#             */
-/*   Updated: 2021/12/24 12:02:21 by adesgran         ###   ########.fr       */
+/*   Updated: 2021/12/24 12:46:03 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "ft_get_next_line.h"
 
 static char	*strjoin_free(char *s1, char *s2)
 {

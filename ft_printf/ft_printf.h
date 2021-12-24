@@ -1,27 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_get_next_line_utils.c                           :+:      :+:    :+:   */
+/*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: adesgran <adesgran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/12/24 11:13:14 by adesgran          #+#    #+#             */
-/*   Updated: 2021/12/24 12:46:29 by adesgran         ###   ########.fr       */
+/*   Created: 2021/12/24 12:39:50 by adesgran          #+#    #+#             */
+/*   Updated: 2021/12/24 12:41:37 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_get_next_line.h" 
+#ifndef FT_PRINFT
+# define FT_PRINTF
 
-int	next_nl(char *s)
-{
-	int	i;
+# include <libft.h>
 
-	i = 0;
-	while (s[i])
-	{
-		if (s[i] == '\n')
-			return (i);
-		i++;
-	}
-	return (-1);
-}
+int		print_i(va_list args);
+int		print_d(va_list args);
+int		print_c(va_list args);
+int		print_s(va_list args);
+int		print_x(va_list args);
+int		print_upx(va_list args);
+int		print_p(va_list args);
+int		print_u(va_list args);
+
+#endif

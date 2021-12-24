@@ -6,7 +6,7 @@
 /*   By: adesgran <adesgran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/22 11:58:21 by adesgran          #+#    #+#             */
-/*   Updated: 2021/12/24 11:45:28 by adesgran         ###   ########.fr       */
+/*   Updated: 2021/12/24 12:48:09 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,12 +74,5 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 char	*ft_strndup(const char *s1, size_t n);
 int		next_nl(char *s);
 char	*ft_get_next_line(int fd);
-int		print_i(va_list args);
-int		print_d(va_list args);
-int		print_c(va_list args);
-int		print_s(va_list args);
-int		print_x(va_list args);
-int		print_upx(va_list args);
-int		print_p(va_list args);
-int		print_u(va_list args);
+int		ft_printf(const char *s, ...);
 #endif
