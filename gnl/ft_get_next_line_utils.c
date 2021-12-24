@@ -6,11 +6,11 @@
 /*   By: adesgran <adesgran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/24 11:13:14 by adesgran          #+#    #+#             */
-/*   Updated: 2021/12/24 11:31:40 by adesgran         ###   ########.fr       */
+/*   Updated: 2021/12/24 12:02:32 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
 
 int	next_nl(char *s)
 {

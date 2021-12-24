@@ -6,11 +6,11 @@
 /*   By: adesgran <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/29 11:23:44 by adesgran          #+#    #+#             */
-/*   Updated: 2021/11/29 13:12:44 by adesgran         ###   ########.fr       */
+/*   Updated: 2021/12/24 12:04:27 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
 
 int	ft_lstsize(t_list *lst)
 {
