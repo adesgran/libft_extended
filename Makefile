@@ -7,9 +7,8 @@ FT_PRINTF = $(wildcard ft_printf/*.c)
 MEM = $(wildcard mem/*.c)
 LST = $(wildcard lst/*.c)
 STR = $(wildcard str/*.c)
-OTHER = $(wildcard other/*.c)
 
-C_FILES = ${GNL} ${FT_PRINTF} ${MEM} ${LST} ${STR} ${OTHER}
+C_FILES = ${GNL} ${FT_PRINTF} ${MEM} ${LST} ${STR} 
 
 O_FILES = ${C_FILES:.c=.o}
 H_FILES = -I .
