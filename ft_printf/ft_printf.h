@@ -6,12 +6,12 @@
 /*   By: adesgran <adesgran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/24 12:39:50 by adesgran          #+#    #+#             */
-/*   Updated: 2021/12/24 12:41:37 by adesgran         ###   ########.fr       */
+/*   Updated: 2021/12/26 17:24:16 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_PRINFT
-# define FT_PRINTF
+#ifndef FT_PRINTF_H
+# define FT_PRINTF_H
 
 # include <libft.h>
 

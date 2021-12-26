@@ -6,7 +6,7 @@
 /*   By: adesgran <adesgran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/22 11:58:21 by adesgran          #+#    #+#             */
-/*   Updated: 2021/12/24 12:49:07 by adesgran         ###   ########.fr       */
+/*   Updated: 2021/12/26 17:22:18 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@
 # include <unistd.h>
 # include <stdlib.h>
 # include <stdarg.h>
-
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 42
