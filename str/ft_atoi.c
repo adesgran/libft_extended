@@ -6,7 +6,7 @@
 /*   By: adesgran <adesgran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/23 16:12:24 by adesgran          #+#    #+#             */
-/*   Updated: 2021/12/24 12:29:13 by adesgran         ###   ########.fr       */
+/*   Updated: 2022/01/09 17:47:18 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ int	ft_atoi(const char *str)
 	int	sign;
 	int	res;
 
+	if (!str)
+		return (0);
 	while (*str == '\t' || *str == '\n' || *str == '\r' || \
 			*str == '\v' || *str == '\f' || *str == ' ')
 		str++;
