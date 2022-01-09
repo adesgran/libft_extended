@@ -6,7 +6,7 @@
 /*   By: adesgran <adesgran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/22 11:58:21 by adesgran          #+#    #+#             */
-/*   Updated: 2022/01/08 14:23:11 by adesgran         ###   ########.fr       */
+/*   Updated: 2022/01/09 12:41:58 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,4 +74,5 @@ char	*ft_strndup(const char *s1, size_t n);
 char	*ft_get_next_line(int fd);
 int		ft_printf(const char *s, ...);
 void	ft_swap(int *a, int *b);
+void	ft_print_tab(int **tab, int n_col, int n_line);
 #endif

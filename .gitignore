@@ -1,3 +1,8 @@
+# Perso
+a.out
+*.swp
+main.c
+
 # Prerequisites
 *.d
 
