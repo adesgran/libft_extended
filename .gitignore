@@ -2,6 +2,7 @@
 a.out
 *.swp
 main.c
+*.sh
 
 # Prerequisites
 *.d
