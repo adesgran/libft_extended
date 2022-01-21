@@ -6,7 +6,7 @@
 /*   By: adesgran <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/09 13:03:49 by adesgran          #+#    #+#             */
-/*   Updated: 2022/01/09 13:16:54 by adesgran         ###   ########.fr       */
+/*   Updated: 2022/01/21 14:19:20 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,8 @@ int	**ft_strs_to_tab(char ***strs)
 	tab = malloc(sizeof(int *) * n_line);
 	if (!tab)
 		return (NULL);
-	while (strs[l])
+	l = -1;
+	while (strs[++l])
 	{
 		tab[l] = ft_str_to_tab(strs[l]);
 		if (!tab[l])
@@ -36,7 +37,6 @@ int	**ft_strs_to_tab(char ***strs)
 			free(tab);
 			return (tab);
 		}
-		l++;
 	}
 	return (tab);
 }
