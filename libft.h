@@ -6,7 +6,7 @@
 /*   By: adesgran <adesgran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/22 11:58:21 by adesgran          #+#    #+#             */
-/*   Updated: 2022/01/09 13:16:00 by adesgran         ###   ########.fr       */
+/*   Updated: 2022/05/11 17:27:31 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,4 +77,5 @@ void	ft_swap(int *a, int *b);
 void	ft_print_tab(int **tab, int n_col, int n_line);
 int		*ft_str_to_tab(char **s);
 int		**ft_strs_to_tab(char ***strs);
+char	*ft_strjoinx(unsigned int nb_str, ...);
 #endif
