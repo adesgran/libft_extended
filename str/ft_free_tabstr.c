@@ -16,6 +16,8 @@ void	ft_free_tabstr(char **tab)
 {
 	char	**init;
 
+	if (!tab)
+		return ;
 	init = tab;
 	while (*tab)
 	{
