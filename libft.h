@@ -6,7 +6,7 @@
 /*   By: adesgran <adesgran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/22 11:58:21 by adesgran          #+#    #+#             */
-/*   Updated: 2022/05/24 18:14:07 by adesgran         ###   ########.fr       */
+/*   Updated: 2022/05/27 14:11:32 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,4 +81,5 @@ char	*ft_strjoinx(unsigned int nb_str, ...);
 void	ft_free_tabstr(char **tab);
 int		ft_strcmp(char *s1, char *s2);
 int		ft_ischarset(char c, char *charset);
+char	**split_first(char *str, char c);
 #endif
