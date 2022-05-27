@@ -6,7 +6,7 @@
 /*   By: adesgran <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/27 14:11:05 by adesgran          #+#    #+#             */
-/*   Updated: 2022/05/27 14:12:53 by adesgran         ###   ########.fr       */
+/*   Updated: 2022/05/27 14:18:27 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ static char	*fill_begin(char *str, char c)
 	return (str);
 }
 
-char	**split_first(char *str, char c)
+char	**ft_split_first(char *str, char c)
 {
 	char	**res;
 
