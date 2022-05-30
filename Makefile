@@ -15,7 +15,7 @@ O_FILES = ${C_FILES:c=o}
 H_FILES = -I .
 
 %.o: %.c
-	@printf "\033[0;33mGenerating minishell objects... %-33.33s\r" $@
+	@printf "\033[0;33mGenerating libft objects... %-33.33s\r" $@
 	@${CC} ${CFLAGS} ${H_FILES} -c $< -o $@
 
 all: ${NAME}
