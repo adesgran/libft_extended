@@ -1,3 +1,4 @@
+[![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
 # libft_extended
 Personal Lib for C based on libft 42's project 
 
