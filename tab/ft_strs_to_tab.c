@@ -35,7 +35,7 @@ int	**ft_strs_to_tab(char ***strs)
 			while (l--)
 				free(tab[l]);
 			free(tab);
-			return (tab);
+			return (NULL);
 		}
 	}
 	return (tab);
